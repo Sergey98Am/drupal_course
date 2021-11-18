@@ -812,4 +812,7 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+$settings['trusted_host_patterns'] = [
+  '^drupal-course.loc$',
+];
 $settings['config_sync_directory'] = 'sites/default/files/config_SiHO7F8qtXQqaY9yUxBKBWCIlDLYaRTaGfBvluOLuDR4iRjIcxDSzil4s4M4eVGQ18c5e5C6xQ/sync';
