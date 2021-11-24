@@ -815,5 +815,4 @@ $databases['default']['default'] = array (
 $settings['trusted_host_patterns'] = [
   '^drupal-course.loc$',
 ];
-
 $settings['config_sync_directory'] = 'config/sync';
