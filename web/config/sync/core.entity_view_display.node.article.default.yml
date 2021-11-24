@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_downloads
+    - field.field.node.article.field_food_sensitivities
     - field.field.node.article.field_image
     - field.field.node.article.field_photo_credit
     - field.field.node.article.field_tags
@@ -34,7 +35,7 @@ content:
     label: hidden
   comment:
     type: comment_default
-    weight: 6
+    weight: 7
     region: content
     label: above
     settings:
@@ -42,12 +43,20 @@ content:
       pager_id: 0
     third_party_settings: {  }
   field_downloads:
-    weight: 5
+    weight: 6
     label: above
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
     type: file_table
+    region: content
+  field_food_sensitivities:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   field_image:
     type: responsive_image
@@ -75,7 +84,7 @@ content:
       link: true
     third_party_settings: {  }
   links:
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }

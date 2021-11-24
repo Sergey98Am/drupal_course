@@ -1,0 +1,35 @@
+uuid: 89c219fc-9ac0-480a-a201-89ba851cb3e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_food_sensitivities
+    - field.field.node.recipe.field_ingredients
+    - node.type.recipe
+  module:
+    - text
+    - user
+id: node.recipe.teaser
+targetEntityType: node
+bundle: recipe
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_food_sensitivities: true
+  field_ingredients: true
+  langcode: true

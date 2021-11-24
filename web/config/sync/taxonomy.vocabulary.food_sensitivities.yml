@@ -1,0 +1,8 @@
+uuid: 316955a5-c4f7-4d10-9531-6a3cfc79a0e1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Food Sensitivities'
+vid: food_sensitivities
+description: ''
+weight: 0

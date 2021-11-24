@@ -1,0 +1,11 @@
+uuid: a976489e-deb8-4db9-825e-29d8044bc938
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.food_sensitivities
+id: taxonomy_term.food_sensitivities
+target_entity_type_id: taxonomy_term
+target_bundle: food_sensitivities
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,29 @@
+uuid: 4b594022-344d-4051-9b48-89ed70516618
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_food_sensitivities
+    - node.type.recipe
+    - taxonomy.vocabulary.food_sensitivities
+id: node.recipe.field_food_sensitivities
+field_name: field_food_sensitivities
+entity_type: node
+bundle: recipe
+label: 'Food Sensitivities'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      food_sensitivities: food_sensitivities
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
