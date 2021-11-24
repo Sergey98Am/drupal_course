@@ -1,0 +1,10 @@
+uuid: 6428ab66-0514-402a-a092-3355f1954f27
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.simple_event
+label: 'Simple event'
+targetEntityType: node
+cache: true

@@ -1,0 +1,30 @@
+uuid: 1895b8f4-b9c9-432e-95f3-43540dcf2393
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e9c56333-efec-4733-8d53-884ad5c51bd2'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: barcelona
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:e9c56333-efec-4733-8d53-884ad5c51bd2'
+settings:
+  id: 'block_content:e9c56333-efec-4733-8d53-884ad5c51bd2'
+  label: Barcelona
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/1*'
+    negate: false

@@ -1,0 +1,83 @@
+uuid: dc9b038e-7cac-4223-903b-abdd4e39e1d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_downloads
+    - field.field.node.article.field_image
+    - field.field.node.article.field_photo_credit
+    - field.field.node.article.field_tags
+    - node.type.article
+    - responsive_image.styles.responsive_for_view
+  module:
+    - comment
+    - file
+    - responsive_image
+    - text
+    - user
+_core:
+  default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+    label: hidden
+  comment:
+    type: comment_default
+    weight: 6
+    region: content
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+  field_downloads:
+    weight: 5
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_table
+    region: content
+  field_image:
+    type: responsive_image
+    weight: 0
+    region: content
+    settings:
+      responsive_image_style: responsive_for_view
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+  field_photo_credit:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tags:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

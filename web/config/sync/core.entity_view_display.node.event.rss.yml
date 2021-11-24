@@ -1,0 +1,67 @@
+uuid: 287f7288-42fc-4a35-be31-9183ced39a39
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_image
+    - field.field.node.event.field_phone
+    - field.field.node.event.field_webinar_link
+    - node.type.event
+  module:
+    - datetime
+    - link
+    - telephone
+    - text
+    - user
+id: node.event.rss
+targetEntityType: node
+bundle: event
+mode: rss
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    weight: 0
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: date_and_time_with_12_hour_clock_
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_phone:
+    weight: 3
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_webinar_link:
+    weight: 2
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_image: true
+  langcode: true

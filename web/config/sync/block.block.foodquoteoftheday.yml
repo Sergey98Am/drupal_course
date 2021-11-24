@@ -1,0 +1,25 @@
+uuid: 8f8e264e-aa84-4822-be71-657c1bb4c8a0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ac40151a-99e2-4d72-986f-efe2bc6958fa'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: foodquoteoftheday
+theme: bartik
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'block_content:ac40151a-99e2-4d72-986f-efe2bc6958fa'
+settings:
+  id: 'block_content:ac40151a-99e2-4d72-986f-efe2bc6958fa'
+  label: 'Food quote of the Day'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

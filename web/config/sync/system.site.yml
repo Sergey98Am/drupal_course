@@ -1,0 +1,14 @@
+uuid: e8c79fb4-7b67-404c-a552-6f98e460a812
+name: 'Drupal course'
+mail: sergey.gabrielyan1998@gmail.com
+slogan: 'A source for information on food sensitivities'
+page:
+  403: /node/7
+  404: /search/node
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,0 +1,25 @@
+uuid: 84150236-4251-4376-b0fa-321276d28da1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.external-resources
+  module:
+    - system
+  theme:
+    - bartik
+id: externalresources
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:external-resources'
+settings:
+  id: 'system_menu_block:external-resources'
+  label: 'External Resources'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

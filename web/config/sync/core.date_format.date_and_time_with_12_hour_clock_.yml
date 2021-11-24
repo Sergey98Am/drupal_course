@@ -1,0 +1,8 @@
+uuid: 0004b6b3-5e95-4f4b-b4b2-7678ea50b1f7
+langcode: en
+status: true
+dependencies: {  }
+id: date_and_time_with_12_hour_clock_
+label: 'Date and time with 12 hour clock '
+locked: false
+pattern: 'F j, Y - g:H a'

@@ -1,0 +1,17 @@
+uuid: 7ec9c0b7-5827-4220-bab3-79c3491bea78
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: grid_image
+label: 'Grid Image'
+effects:
+  3572ab9f-be61-40f7-b0a7-f3240b47584d:
+    uuid: 3572ab9f-be61-40f7-b0a7-f3240b47584d
+    id: focal_point_scale_and_crop
+    weight: 2
+    data:
+      width: 200
+      height: 100
+      crop_type: focal_point

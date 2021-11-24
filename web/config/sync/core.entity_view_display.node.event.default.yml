@@ -1,0 +1,75 @@
+uuid: 8aa66975-b42e-45ca-acad-529d5e4ddf11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_image
+    - field.field.node.event.field_phone
+    - field.field.node.event.field_webinar_link
+    - node.type.event
+  module:
+    - datetime
+    - image
+    - link
+    - telephone
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_date:
+    weight: 0
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: date_and_time_with_12_hour_clock_
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_phone:
+    weight: 4
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+    region: content
+  field_webinar_link:
+    weight: 3
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

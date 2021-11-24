@@ -1,0 +1,19 @@
+uuid: c24af1d5-8562-4bbc-870a-07442e201121
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_credit
+    - node.type.article
+id: node.article.field_photo_credit
+field_name: field_photo_credit
+entity_type: node
+bundle: article
+label: 'Photo credit'
+description: 'If the photo is a CC-SA-BY image, please put the photographer''s name here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

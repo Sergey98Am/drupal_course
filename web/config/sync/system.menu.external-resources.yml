@@ -1,0 +1,8 @@
+uuid: 79355cb2-19df-497b-916b-8e1a6c816620
+langcode: en
+status: true
+dependencies: {  }
+id: external-resources
+label: 'External Resources'
+description: 'A list of links to other blogs about food sensitivities'
+locked: false
