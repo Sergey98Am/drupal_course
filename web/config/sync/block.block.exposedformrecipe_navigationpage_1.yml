@@ -1,0 +1,23 @@
+uuid: 2b763c2e-5957-497f-acbf-004f9a973a21
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recipe_navigation
+  module:
+    - views
+  theme:
+    - bartik
+id: exposedformrecipe_navigationpage_1
+theme: bartik
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_exposed_filter_block:recipe_navigation-page_1'
+settings:
+  id: 'views_exposed_filter_block:recipe_navigation-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility: {  }

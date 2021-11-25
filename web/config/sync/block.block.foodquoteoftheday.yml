@@ -11,7 +11,7 @@ dependencies:
 id: foodquoteoftheday
 theme: bartik
 region: sidebar_first
-weight: -5
+weight: -7
 provider: null
 plugin: 'block_content:ac40151a-99e2-4d72-986f-efe2bc6958fa'
 settings:

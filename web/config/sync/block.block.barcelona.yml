@@ -12,7 +12,7 @@ dependencies:
 id: barcelona
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:e9c56333-efec-4733-8d53-884ad5c51bd2'
 settings:
