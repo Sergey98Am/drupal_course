@@ -1,2 +1,8 @@
-/vendor
-/web/sites/default/files
+.idea
+/vendor/
+/web/sites/default/files/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
