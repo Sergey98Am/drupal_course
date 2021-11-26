@@ -1,0 +1,20 @@
+uuid: a1a52e85-582b-459b-85cf-e687b809fdc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+  theme:
+    - showcase_lite
+id: masquerade_2
+theme: showcase_lite
+region: sidebar_first
+weight: -6
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility: {  }

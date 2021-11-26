@@ -1,0 +1,14 @@
+uuid: 030ea405-bbed-44b9-a4c7-1feda0772ebd
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.recipe_contributor
+  module:
+    - user
+id: user_add_role_action.recipe_contributor
+label: 'Add the Recipe contributor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: recipe_contributor

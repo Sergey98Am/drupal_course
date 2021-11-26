@@ -1,4 +1,4 @@
-uuid: 2b763c2e-5957-497f-acbf-004f9a973a21
+uuid: ec9ce262-2622-472c-8d02-af1aac6fb605
 langcode: en
 status: true
 dependencies:
@@ -8,16 +8,17 @@ dependencies:
     - views
   theme:
     - bartik
-id: exposedformrecipe_navigationpage_1
+id: views_block__recipe_navigation_block_1
 theme: bartik
 region: sidebar_first
 weight: -9
 provider: null
-plugin: 'views_exposed_filter_block:recipe_navigation-page_1'
+plugin: 'views_block:recipe_navigation-block_1'
 settings:
-  id: 'views_exposed_filter_block:recipe_navigation-page_1'
+  id: 'views_block:recipe_navigation-block_1'
   label: ''
   provider: views
   label_display: visible
   views_label: ''
+  items_per_page: none
 visibility: {  }

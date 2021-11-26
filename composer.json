@@ -24,6 +24,8 @@
         "drupal/diff": "^1.0",
         "drupal/ds": "^3.13",
         "drupal/focal_point": "^1.5",
+        "drupal/masquerade": "2.x-dev@dev",
+        "drupal/showcase_lite": "1.x-dev@dev",
         "drupal/superfish": "^1.4"
     },
     "conflict": {

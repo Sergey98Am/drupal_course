@@ -1,0 +1,14 @@
+uuid: 9413c6fe-77cb-45f4-b22b-ac852f1bc16c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.recipe_contributor
+  module:
+    - user
+id: user_remove_role_action.recipe_contributor
+label: 'Remove the Recipe contributor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: recipe_contributor

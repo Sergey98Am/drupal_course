@@ -1,0 +1,12 @@
+uuid: bf2cd596-a3a5-452c-86b9-48b2c69ce56c
+langcode: en
+status: true
+dependencies: {  }
+id: recipe_contributor
+label: 'Recipe contributor'
+weight: 3
+is_admin: null
+permissions:
+  - 'create recipe content'
+  - 'edit own recipe content'
+  - 'view recipe revisions'

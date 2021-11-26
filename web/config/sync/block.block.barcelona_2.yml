@@ -1,0 +1,25 @@
+uuid: 4b36d6bc-a375-4522-9d07-9adf5298fd0b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e9c56333-efec-4733-8d53-884ad5c51bd2'
+  module:
+    - block_content
+  theme:
+    - showcase_lite
+id: barcelona_2
+theme: showcase_lite
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'block_content:e9c56333-efec-4733-8d53-884ad5c51bd2'
+settings:
+  id: 'block_content:e9c56333-efec-4733-8d53-884ad5c51bd2'
+  label: Barcelona
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
